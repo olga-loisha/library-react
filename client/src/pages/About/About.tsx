@@ -4,9 +4,9 @@ import './About.css';
 
 const About = () => {
     return (
-        <nav className="about">
-            {/* About content will go here */}
-        </nav>
+        <section className="about">
+            <p className="about-message">This is a nice place where good books live.</p>
+        </section>
     );
 };
 

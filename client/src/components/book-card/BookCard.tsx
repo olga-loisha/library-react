@@ -1,14 +1,21 @@
 import React from 'react';
 
 import './BookCard.css';
-import {IBook} from "../../models";
+import { BookCardProps } from '../../models';
 
-const BookCard = ({ }) => {
-    return <div>
-        {/*<p>{book.name}</p>*/}
-        {/*<p>{book.author}</p>*/}
-        {/*<p>{book.annotation}</p>*/}
-    </div>
+const BookCard = (props: BookCardProps) => {
+  const { book } = props;
+
+  return (
+      <div className="book-card">
+          <img className="book-card-cover" />
+          <div className="book-card-info">
+              <p>
+                  <span className="book-card-name">{book?.name}</span> by <span
+                  className="book-card-author">{book?.author}</span>
+              </p>
+          </div>
+      </div>)
 };
 
 export default BookCard;

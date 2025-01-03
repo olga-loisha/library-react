@@ -1,0 +1,7 @@
+.about {
+    padding: 2em;
+
+    .about-message {
+        font-size: 2em;
+    }
+}

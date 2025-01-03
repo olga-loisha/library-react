@@ -1,12 +1,13 @@
 import React from 'react';
 
 import './Books.css';
+import BooksList from '../../containers/books-list/BooksList';
 
 const Books = () => {
     return (
-        <nav className="books">
-            {/* Books content will go here */}
-        </nav>
+        <section className="books">
+          <BooksList />
+        </section>
     );
 };
 

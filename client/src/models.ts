@@ -5,3 +5,7 @@ export interface IBook {
     annotation: string;
     year: number;
 }
+
+export interface BookCardProps {
+    book: IBook;
+}

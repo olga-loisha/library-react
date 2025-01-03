@@ -1,0 +1,23 @@
+.book-card {
+    padding: 1em;
+    margin: 1em;
+    width: 250px;
+    height: 500px;
+    background: white;
+    color: black;
+    cursor: pointer;
+
+    .book-card-cover {
+        width: 250px;
+        height: 400px;
+    }
+
+    .book-card-info {
+        display: flex;
+        flex-direction: column;
+
+        .book-card-name, .book-card-author {
+            font-size: 1.1em;
+        }
+    }
+}
