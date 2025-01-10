@@ -8,7 +8,7 @@ const BookCard = (props: BookCardProps) => {
 
   return (
       <div className="book-card">
-          <img className="book-card-cover" />
+          <img className="book-card-cover" src={book.url} />
           <div className="book-card-info">
               <p>
                   <span className="book-card-name">{book?.name}</span> by <span
