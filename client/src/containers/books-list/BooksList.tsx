@@ -18,7 +18,7 @@ const BooksList = (): React.JSX.Element => {
 
     useEffect(() => {
         if (Number(pageNumber) > PAGE_COUNT) {
-            navigate('books/1', { replace: true });
+            navigate('/books/1', { replace: true });
         }
     }, [pageNumber]);
 
