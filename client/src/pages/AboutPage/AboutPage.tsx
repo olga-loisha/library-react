@@ -1,8 +1,8 @@
 import React from 'react';
 
-import './About.css';
+import './AboutPage.css';
 
-const About = () => {
+const AboutPage = () => {
     return (
         <section className="about">
             <p className="about-message">This is a nice place where good books live.</p>
@@ -10,4 +10,4 @@ const About = () => {
     );
 };
 
-export default About;
+export default AboutPage;

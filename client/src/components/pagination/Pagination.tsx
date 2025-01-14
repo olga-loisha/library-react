@@ -2,7 +2,7 @@ import React, {useEffect} from 'react';
 import {useNavigate} from 'react-router';
 
 import {PaginationProps} from '../../models';
-import usePagination from '../../hooks/usePagination';
+import usePagination from './usePagination';
 
 const Pagination = (props: PaginationProps) => {
     const { pageCount} = props;
