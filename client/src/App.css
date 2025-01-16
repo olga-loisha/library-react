@@ -1,3 +1,13 @@
-.App {
-  text-align: center;
+.app {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.app-light {
+  background: linear-gradient(90deg, #FC466B, #3F5EFB);
+  color: #fff;
+}
+
+.app-dark {
+  background: linear-gradient(90deg, #732A40, #000000);
+  color: #F3AAC0;
 }

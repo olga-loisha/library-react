@@ -1,0 +1,31 @@
+.pagination {
+    padding-top: 15px;
+    display: flex;
+    justify-content: center;
+
+    button {
+        margin: 0 5px;
+        width: 60px;
+        height: 40px;
+        border: none;
+        color: inherit;
+        font-size: 1.2em;
+
+        &:hover {
+            transform: scale(1.1);
+            cursor: pointer;
+        }
+    }
+}
+
+.pagination-light {
+    button {
+        background-color: rgba(255, 255, 255, 0.3);
+    }
+}
+
+.pagination-dark {
+    button {
+        background: rgba(0, 0, 0, 0.7);
+    }
+}
