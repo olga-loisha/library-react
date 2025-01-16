@@ -1,7 +1,6 @@
-header {
+.header {
     display: flex;
     width: 100%;
-    background: rgba(255, 255, 255, 0.3);
 
     h3 {
         margin: 25px 20px;
@@ -20,7 +19,6 @@ header {
             width: 100%;
 
             li {
-                margin-right: 25px;
                 font-size: 1.5em;
                 list-style-type: none;
                 cursor: pointer;
@@ -36,4 +34,12 @@ header {
             }
         }
     }
+}
+
+.header-light {
+    background: rgba(255, 255, 255, 0.3);
+}
+
+.header-dark {
+    background: rgba(0, 0, 0, 0.7);
 }
