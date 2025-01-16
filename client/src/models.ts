@@ -4,8 +4,13 @@ export interface IBook {
     author: string;
     annotation: string;
     year: number;
+    url?: string;
 }
 
 export interface BookCardProps {
     book: IBook;
+}
+
+export interface PaginationProps {
+    pageCount: number;
 }

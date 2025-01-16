@@ -11,7 +11,7 @@
     "name": "The Casual Vacancy",
     "author": "J. K. Rowling",
     "annotation": "When Barry Fairbrother dies unexpectedly in his early forties, the little town of Pagford is left in shock. Pagford appears to be an English idyll—with a cobbled market square and an ancient abbey—but behind its charming façade lies a town at war. The rich clash with the poor, teenagers battle their parents, wives contend with their husbands, and teachers struggle with their pupils. Pagford is far from what it seems.\n\nThe empty seat Barry leaves on the town council becomes the catalyst for the fiercest conflict the town has ever seen. The election to fill his seat is fraught with passion, duplicity, and unexpected revelations. Who will triumph in this battle of wills?",
-    "year": "2012"
+    "year": 2012
   },
   {
     "id": 3,
@@ -46,27 +46,13 @@
     "name": "The Golden Compass",
     "author": "Philip Pullman",
     "annotation": "Lyra is rushing to the cold, far North, where witch clans and armored bears rule. North, where the Gobblers take the children they steal--including her friend Roger. North, where her fearsome uncle Asriel is trying to build a bridge to a parallel world.\n\nCan one small girl make a difference in such great and terrible endeavors? This is Lyra: a savage, a schemer, a liar, and as fierce and true a champion as Roger or Asriel could want--but what Lyra doesn't know is that to help one of them will be to betray the other.",
-    "year": "1995"
+    "year": 1995
   },
   {
     "id": 8,
     "name": "The Invisible Life of Addie LaRue",
     "author": "Victoria E. Schwab",
     "annotation": "France, 1714: in a moment of desperation, a young woman makes a Faustian bargain to live forever and is cursed to be forgotten by everyone she meets.\n\nThus begins the extraordinary life of Addie LaRue, and a dazzling adventure that will play out across centuries and continents, across history and art, as a young woman learns how far she will go to leave her mark on the world.\n\nBut everything changes when, after nearly 300 years, Addie stumbles across a young man in a hidden bookstore and he remembers her name.",
-    "year": "2020"
-  },
-  {
-    "id": 9,
-    "name": "The Poppy War",
-    "author": "R. F. Kuang",
-    "annotation": "When Rin aced the Keju—the Empire-wide test to find the most talented youth to learn at the Academies—it was a shock to everyone: to the test officials, who couldn’t believe a war orphan from Rooster Province could pass without cheating; to Rin’s guardians, who believed they’d finally be able to marry her off and further their criminal enterprise; and to Rin herself, who realized she was finally free of the servitude and despair that had made up her daily existence. That she got into Sinegard—the most elite military school in Nikan—was even more surprising.\n\nBut surprises aren’t always good.\n\nBecause being a dark-skinned peasant girl from the south is not an easy thing at Sinegard. Targeted from the outset by rival classmates for her color, poverty, and gender, Rin discovers she possesses a lethal, unearthly power—an aptitude for the nearly-mythical art of shamanism. Exploring the depths of her gift with the help of a seemingly insane teacher and psychoactive substances, Rin learns that gods long thought dead are very much alive—and that mastering control over those powers could mean more than just surviving school.\n\nFor while the Nikara Empire is at peace, the Federation of Mugen still lurks across a narrow sea. The militarily advanced Federation occupied Nikan for decades after the First Poppy War, and only barely lost the continent in the Second. And while most of the people are complacent to go about their lives, a few are aware that a Third Poppy War is just a spark away . . .\n\nRin’s shamanic powers may be the only way to save her people. But as she finds out more about the god that has chosen her, the vengeful Phoenix, she fears that winning the war may cost her humanity . . . and that it may already be too late.",
-    "year": "2018"
-  },
-  {
-    "id": 10,
-    "name": "Piranesi",
-    "author": "Susanna Clark",
-    "annotation": "Piranesi’s house is no ordinary building: its rooms are infinite, its corridors endless, its walls are lined with thousands upon thousands of statues, each one different from all the others. Within the labyrinth of halls an ocean is imprisoned; waves thunder up staircases, rooms are flooded in an instant. But Piranesi is not afraid; he understands the tides as he understands the pattern of the labyrinth itself. He lives to explore the house.\n\nThere is one other person in the house—a man called The Other, who visits Piranesi twice a week and asks for help with research into A Great and Secret Knowledge. But as Piranesi explores, evidence emerges of another person, and a terrible truth begins to unravel, revealing a world beyond the one Piranesi has always known.",
-    "year": "2020"
+    "year": 2020
   }
 ]
