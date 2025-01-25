@@ -6,10 +6,10 @@ function usePagination(pageCount: number) {
     const [currentPageNumber, setCurrentPageNumber] = useState(Number(pageNumber));
 
     useEffect(() => {
-        if (currentPageNumber !== Number(pageNumber)) {
+        if (currentPageNumber !== Number(pageNumber) && !setCurrentPageNumber) {
             setCurrentPageNumber(Number(pageNumber));
         }
-    }, [pageNumber]);
+    }, [pageNumber, currentPageNumber, setCurrentPageNumber]);
 
     const changePage = (pageNumber: number) => {
         setCurrentPageNumber(pageNumber);

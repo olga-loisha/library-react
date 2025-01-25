@@ -1,3 +1,5 @@
+import {ReactNode} from "react";
+
 export interface IBook {
     id: number;
     name: string;
@@ -9,8 +11,18 @@ export interface IBook {
 
 export interface BookCardProps {
     book: IBook;
+    onButtonClick: () => void;
 }
 
 export interface PaginationProps {
     pageCount: number;
+}
+
+export interface ModalContentProps {
+    onClose: () => void;
+}
+
+export interface ButtonProps {
+    children: ReactNode;
+    onButtonClick: () => void;
 }
