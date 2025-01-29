@@ -21,12 +21,12 @@
     padding: 1em;
 
     &.modal-dark {
-        background: rgba(115, 42, 64, 0.7);
+        background: rgba(115, 42, 64, 0.9);
         color: #F3AAC0;
     }
 
     &.modal-light {
-        background: rgba(157, 80, 179, 0.8);
+        background: rgba(157, 80, 179, 0.9);
         color: white;
     }
 
@@ -40,6 +40,10 @@
             font-weight: 400;
             font-size: 1.3em;
             text-transform: uppercase;
+        }
+
+        .close-icon {
+            cursor: pointer;
         }
     }
 }
