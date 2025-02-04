@@ -1,4 +1,4 @@
-import { useContext } from 'react';
+import { useContext, useRef } from 'react';
 
 import './ModalContent.css';
 import { ModalContentProps } from '../../models';
@@ -11,6 +11,8 @@ const ModalContent = (props: ModalContentProps) => {
     const { onClose } = props;
     const { currentTheme } = useContext(ThemeContext);
 
+    const inputRef = useRef()
+
     return <div className="modal-backdrop">
         <div className={`modal modal-${currentTheme}`}>
             <header className="modal-header">
@@ -18,7 +20,7 @@ const ModalContent = (props: ModalContentProps) => {
                 <MdClose className="close-icon" onClick={onClose} />
             </header>
             <section className="modal-content">
-                <CounterInput />
+                <CounterInput ref={inputRef}/>
             </section>
             <div className="action-buttons-container">
                 <Button onButtonClick={onClose}>Confirm</Button>
