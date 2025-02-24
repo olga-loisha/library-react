@@ -16,14 +16,14 @@ const Pagination = (props: PaginationProps) => {
 
     useEffect(() => {
         navigate(`/books/${currentPageNumber}`)
-    }, [currentPageNumber]);
+    }, [currentPageNumber, navigate]);
 
     return (<div className={`pagination pagination-${currentTheme}`}>
-        <button className="button" onClick={goToPreviousPage}>Prev</button>
-        <button className="button" onClick={() => changePage(1)}>1</button>
-        <button className="button" onClick={() => changePage(2)}>2</button>
-        <button className="button" onClick={() => changePage(3)}>3</button>
-        <button className="button" onClick={goToNextPage}>Next</button>
+        <button onClick={goToPreviousPage}>Prev</button>
+        <button onClick={() => changePage(1)}>1</button>
+        <button onClick={() => changePage(2)}>2</button>
+        <button onClick={() => changePage(3)}>3</button>
+        <button onClick={goToNextPage}>Next</button>
     </div>);
 }
 

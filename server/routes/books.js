@@ -1,8 +1,8 @@
 import express from 'express';
 
-import books from '../data/books.json' with { type: "json" };
-import books2 from '../data/books2.json' with { type: "json" };
-import books3 from '../data/books3.json' with { type: "json" };
+import books from '../data/books.json' assert { type: "json" };
+import books2 from '../data/books2.json' assert { type: "json" };
+import books3 from '../data/books3.json' assert { type: "json" };
 
 const router = express.Router();
 

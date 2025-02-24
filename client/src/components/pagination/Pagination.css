@@ -10,10 +10,10 @@
         border: none;
         color: inherit;
         font-size: 1.2em;
+        cursor: pointer;
 
         &:hover {
             transform: scale(1.1);
-            cursor: pointer;
         }
     }
 }

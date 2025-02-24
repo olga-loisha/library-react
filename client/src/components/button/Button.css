@@ -1,0 +1,19 @@
+.button {
+    height: 40px;
+    width: 150px;
+    font-size: 1.1em;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.button-light {
+    background-color: rgba(255, 255, 255, 0.8);
+    color: rgb(157, 80, 179);
+}
+
+.button-dark {
+    background-color: rgba(243, 170, 192, 0.8);
+    color: rgb(58, 21, 32);
+}
+

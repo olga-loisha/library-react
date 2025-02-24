@@ -1,0 +1,58 @@
+.counter-input-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .increment-button, .decrement-button {
+        width: 60px;
+        height: 40px;
+        border: none;
+        font-size: 1.2em;
+        cursor: pointer;
+        color: inherit;
+    }
+
+    .counter-input {
+        width: 100px;
+        height: 40px;
+        border: none;
+        box-sizing: border-box;
+        outline: none;
+        color: inherit;
+        text-align: center;
+        border-right: 1px solid;
+        border-left: 1px solid;
+    }
+
+    .counter-input::-webkit-outer-spin-button,
+    .counter-input::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+    }
+
+    .counter-input[type=number] {
+        -moz-appearance: textfield;
+    }
+}
+
+.theme-dark {
+    .increment-button, .decrement-button, .counter-input {
+        background: rgba(0, 0, 0, 0.7);
+    }
+
+    .counter-input {
+        border-right-color: #F3AAC0;
+        border-left-color: #F3AAC0;
+    }
+}
+
+.theme-light {
+    .increment-button, .decrement-button, .counter-input {
+        background-color: rgba(255, 255, 255, 0.3);
+    }
+
+    .counter-input {
+        border-right-color: white;
+        border-left-color: white;
+    }
+}
